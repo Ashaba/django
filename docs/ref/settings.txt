@@ -1613,6 +1613,11 @@ Available formats are :setting:`DATE_FORMAT`, :setting:`DATE_INPUT_FORMATS`,
 :setting:`DECIMAL_SEPARATOR`, :setting:`THOUSAND_SEPARATOR` and
 :setting:`NUMBER_GROUPING`.
 
+.. note::
+
+    Although the formats are different, :setting:`FORMAT_MODULE_PATH` may
+    reference the same filesystem directory as :setting:`LOCALE_PATHS`.
+
 .. setting:: IGNORABLE_404_URLS
 
 ``IGNORABLE_404_URLS``
